@@ -27,3 +27,8 @@
 #define COMPANY_KAHRAMAN "It has a <b>[span_red("red label")] with <b>[span_red("K - A - S")]</b> printed on it, alongside various xerxian proof-marks.</b>"
 
 #define COMPANY_REMOVED "It has had <b>[span_grey("all identifying marks scrubbed off")].</b>"
+
+
+#define COMPANY_SAR_STOCK "It has the text <b>[span_blue(COMPANY_NAME_SAR_INC)]</b> engraved into it, along with a stylized depiction of the <b>[span_blue("Sol system")]</b> and a <b>[span_blue("cobalt blue SAR seal of quality")]</b> burned into the stock."
+#define COMPANY_SAR_NOSTOCK "It has the text <b>[span_blue(COMPANY_NAME_SAR_INC)]</b> engraved into it, along with a stylized depiction of the <b>[span_blue("Sol system")]</b>."
+#define COMPANY_SAR_BARREL "It has the text <b>[span_blue(COMPANY_NAME_SAR_INC)]</b> engraved into it, along with a stylized depiction of the <b>[span_blue("Sol system")]</b> and a <b>[span_blue("cobalt blue SAR seal of quality")]</b> engraved onto the barrel."
