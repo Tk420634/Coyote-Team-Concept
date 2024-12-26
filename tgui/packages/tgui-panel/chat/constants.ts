@@ -41,6 +41,7 @@ export const MESSAGE_TYPE_DEBUG = 'debug';
 export const MESSAGE_TYPE_MENTOR = 'mentor';
 export const MESSAGE_TYPE_LOOC = 'looc';
 export const MESSAGE_TYPE_REMOTE_LOOC = 'rlooc';
+export const MESSAGE_TYPE_ENTERTAINMENT = 'entertainment';
 // BUBBER EDIT ADDITION END
 
 // Metadata for each message type
@@ -65,7 +66,7 @@ export const MESSAGE_TYPES = [
     name: 'Radio',
     description: 'All departments of radio messages',
     selector:
-      '.alert, .minorannounce, .syndradio, .centcomradio, .aiprivradio, .enteradio, .comradio, .secradio, .gangradio, .engradio, .medradio, .sciradio, .suppradio, .servradio, .radio, .deptradio, .binarysay, .newscaster, .resonate, .abductor, .alien, .changeling',
+      '.alert, .minorannounce, .syndradio, .centcomradio, .aiprivradio, .comradio, .secradio, .gangradio, .engradio, .medradio, .sciradio, .suppradio, .servradio, .radio, .deptradio, .binarysay, .newscaster, .resonate, .abductor, .alien, .changeling', // BUBBER EDIT CHANGE - enteradio moved to Entertainment Channel
   },
   {
     type: MESSAGE_TYPE_INFO,
@@ -105,6 +106,12 @@ export const MESSAGE_TYPES = [
     name: 'Mentor Log',
     description: 'Mentor PMs and other mentor things.',
     selector: '.mentor, .mentornotice',
+  },
+  {
+    type: MESSAGE_TYPE_ENTERTAINMENT,
+    name: 'Entertainment',
+    description: 'Entertainment and newscaster broadcasts.',
+    selector: '.enteradio, .newscaster',
   },
   // BUBBER EDIT ADDITION END
   {
